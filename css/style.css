@@ -1,0 +1,27 @@
+
+div div{
+	width: 25%;
+	height: 100px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.amarillo{
+	background-color:yellow;
+	float:left;
+}
+.rojo{
+	background-color:red;
+	float:left;
+}
+.azul{background-color:blue;
+	float: right;
+}
+
+.contenedor{
+	border:1px black solid;
+	width:700px;
+}
+
